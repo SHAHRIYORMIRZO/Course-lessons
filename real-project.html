@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="home">
+      <div class="home-page">
+        <header class="main-header">
+          <div class="logo-image">
+            <img
+              src="data:image/png;base64,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"
+            />
+          </div>
+          <nav class="navigation">
+            <ul class="navigation__items">
+              <li class="navigation__item"><a href="#">Home</a></li>
+              <li class="navigation__item"><a href="#about">About</a></li>
+              <li class="navigation__item"><a href="">Blog</a></li>
+              <li class="navigation__item"><a href="">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+      <div class="main-img">
+        <div class="content">
+          <p class="content__title">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+            corporis eos provident delectus ipsam iste!
+          </p>
+          <button id="btn">Learn more</button>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <h1>About <span>ME</span> Section</h1>
+      <div class="about-grid">
+        <div class="about-grid-item">
+          <a href="">
+            <h2>About me</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Molestiae repudiandae odit nulla quibusdam in ea nostrum ipsam
+              soluta, provident aut expedita officia ullam, voluptates itaque
+              vitae eum suscipit optio accusantium?
+            </p>
+          </a>
+        </div>
+        <div class="about-grid-item">
+          <a href="">
+            <h2>About me</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Molestiae repudiandae odit nulla quibusdam in ea nostrum ipsam
+              soluta, provident aut expedita officia ullam, voluptates itaque
+              vitae eum suscipit optio accusantium?
+            </p>
+          </a>
+        </div>
+        <div class="about-grid-item">
+          <a href="">
+            <h2>About me</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Molestiae repudiandae odit nulla quibusdam in ea nostrum ipsam
+              soluta, provident aut expedita officia ullam, voluptates itaque
+              vitae eum suscipit optio accusantium?
+            </p>
+          </a>
+        </div>
+      </div>
+      <div class="about-grid">
+        <div class="about-grid-item">
+          <a href="">
+            <h2>About me</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Molestiae repudiandae odit nulla quibusdam in ea nostrum ipsam
+              soluta, provident aut expedita officia ullam, voluptates itaque
+              vitae eum suscipit optio accusantium?
+            </p>
+          </a>
+        </div>
+        <div class="about-grid-item">
+          <a href="">
+            <h2>About me</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Molestiae repudiandae odit nulla quibusdam in ea nostrum ipsam
+              soluta, provident aut expedita officia ullam, voluptates itaque
+              vitae eum suscipit optio accusantium?
+            </p>
+          </a>
+        </div>
+        <div class="about-grid-item">
+          <a href="">
+            <h2>About me</h2>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Molestiae repudiandae odit nulla quibusdam in ea nostrum ipsam
+              soluta, provident aut expedita officia ullam, voluptates itaque
+              vitae eum suscipit optio accusantium?
+            </p>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="blog">
+      <div class="blog-content">
+        <div class="blog-content-grid">
+          <div class="blog-content-grid-item">
+            <a href="">
+              <img src="./images/portfolio.PNG" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Labore, inventore.
+              </p>
+            </a>
+          </div>
+          <div class="blog-content-grid-item">
+            <a href="">
+              <img src="./images/portfolio.PNG" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Labore, inventore.
+              </p>
+            </a>
+          </div>
+          <div class="blog-content-grid-item">
+            <a href="">
+              <img src="./images/portfolio.PNG" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Labore, inventore.
+              </p>
+            </a>
+          </div>
+          <div class="blog-content-grid-item">
+            <a href="">
+              <img src="./images/portfolio.PNG" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Labore, inventore.
+              </p>
+            </a>
+          </div>
+          <div class="blog-content-grid-item">
+            <a href="">
+              <div>
+                <img src="./images/portfolio.PNG" alt="" />
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Labore, inventore.
+              </p>
+            </a>
+          </div>
+          <div class="blog-content-grid-item">
+            <a href="">
+              <img src="./images/portfolio.PNG" alt="" />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Labore, inventore.
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
